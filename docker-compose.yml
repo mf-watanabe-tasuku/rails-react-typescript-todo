@@ -34,5 +34,5 @@ services:
     command: sh -c "cd react-app && yarn start"
     ports:
       - "3000:3000"
-  volumes:
-    mysql-data:
+volumes:
+  mysql-data:
